@@ -1,0 +1,56 @@
+body{
+    background-color: #674f67;
+    margin: 0;
+}
+header{
+    height: 50px;
+    background-color: #a885bf;
+}
+footer{
+    height: 50px;
+}
+#bodyContent{
+    background-color: white;
+    max-width: 1000px;
+    margin: auto;
+}
+#HomeDescription{
+
+    .UnderHighLightedBox{
+        width: 50%;
+    }
+}
+#HomeHorizontalBox{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+
+    .ContentBox{
+        width: 27%;
+        margin: auto;
+        
+    }
+}
+
+
+
+//こっからクラス
+.picture{
+    object-fit: cover;
+    width: 100%;
+}
+.UnderHighLightedBox{
+    border-bottom: #a885bf solid 5px;
+    margin: auto;
+
+    //中のpタグ
+    p{
+        margin: 0;
+        text-align: center;
+    }
+}
+
+.ContentBox{
+    overflow-wrap: break-word;
+    
+}
