@@ -5,9 +5,51 @@ body{
 header{
     height: 50px;
     background-color: #a885bf;
+    display: flex;
+    color: white;
+    
+    h2{
+        margin: auto 0 auto 0;
+    }
+    h3{
+        margin: auto 0 auto 0;
+    }
 }
 footer{
     height: 50px;
+}
+#pictureContent{
+    background-color: black;
+    position: relative;
+    .picture{
+        object-fit: cover;
+        width: 100%;
+        opacity: 50%;
+
+    }
+    #pictureContentText{
+        //中央に配置
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        -ms-transform: translate(-30%,-50%);
+        -webkit-transform: translate(-30%,-50%);
+        transform: translate(-30%,-50%);
+        margin:0;
+        padding:0;
+
+        border-left: #c842c5 solid 10px;
+
+
+        h1{
+            font-size: 40px;
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+
 }
 #bodyContent{
     background-color: white;
@@ -23,11 +65,21 @@ footer{
 #HomeHorizontalBox{
     width: 100%;
     display: flex;
-    margin-top: 10px;
+    padding: 10px 0 20px 0;
+    justify-content: space-around;        
 
     .ContentBox{
         width: 27%;
-        margin: auto;
+        flex-direction: column;
+        display: flex;
+
+            p{
+                overflow-wrap: break-word;
+                margin: 0;
+                text-align: center;
+                color: white;
+                margin-top: auto;
+            }
         
     }
 }
@@ -35,10 +87,7 @@ footer{
 
 
 //こっからクラス
-.picture{
-    object-fit: cover;
-    width: 100%;
-}
+
 .UnderHighLightedBox{
     border-bottom: #a885bf solid 5px;
     margin: auto;
@@ -48,9 +97,4 @@ footer{
         margin: 0;
         text-align: center;
     }
-}
-
-.ContentBox{
-    overflow-wrap: break-word;
-    
 }
