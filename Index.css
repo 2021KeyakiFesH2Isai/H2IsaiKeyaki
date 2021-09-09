@@ -1,5 +1,5 @@
 body {
-  background-color: #674f67;
+  background-color: #ad9db8;
   margin: 0;
 }
 
@@ -10,6 +10,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: white;
+  padding: 5px;
 }
 
 header h2 {
@@ -21,7 +22,8 @@ header h3 {
 }
 
 footer {
-  height: 50px;
+  height: 100px;
+  background-color: #674f67;
 }
 
 #pictureContent {
