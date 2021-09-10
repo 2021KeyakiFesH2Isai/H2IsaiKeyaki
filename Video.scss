@@ -1,19 +1,36 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body{
     background-color:#ad9db8;
     margin: 0;
+    margin-top: 60px;
 }
 header{
     height: 50px;
+    width: 100%;
     background-color: #a885bf;
     display: flex;
     color: white;
     padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
     
     h2{
         margin: auto 0 auto 0;
     }
     h3{
         margin: auto 0 auto 0;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+
     }
 }
 footer{
@@ -58,6 +75,10 @@ footer{
     background-color: white;
     max-width: 1000px;
     margin: auto;
+
+    @media screen and (max-width: 480px){
+        width: 100%;
+    }
 }
 #HomeDescription{
 
@@ -99,9 +120,14 @@ footer{
     .VideoBox{
         display: flex;
         padding: 10px 0;
+        @media screen and (max-width: 480px){
+            display: block;
+        }
+
 
         .Video{
             height: 200px;
+            display: block;
         }
         .VideoDescription{
             display: block;

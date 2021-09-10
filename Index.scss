@@ -1,21 +1,12 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
     background-color:#ad9db8;
     margin: 0;
+    margin-top: 60px;
 }
-header{
-    height: 50px;
-    background-color: #a885bf;
-    display: flex;
-    color: white;
-    padding: 5px;
-    
-    h2{
-        margin: auto 0 auto 0;
-    }
-    h3{
-        margin: auto 0 auto 0;
-    }
-}
+
 footer{
     height: 100px;
     background-color: #674f67;
@@ -68,8 +59,8 @@ footer{
     width: 100%;
     display: flex;
     padding: 10px 0 20px 0;
-    justify-content: space-around;        
-
+    justify-content: space-around;
+    
     .ContentBox{
         width: 27%;
         flex-direction: column;
@@ -83,6 +74,15 @@ footer{
                 margin-top: auto;
             }
         
+    }
+
+    @media screen and (max-width: 480px){
+        display: block;
+        
+        .ContentBox{
+            margin: 20px auto;
+            width: 80%;
+        }
     }
 }
 

@@ -1,24 +1,11 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
   background-color: #ad9db8;
   margin: 0;
-}
-
-header {
-  height: 50px;
-  background-color: #a885bf;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-  padding: 5px;
-}
-
-header h2 {
-  margin: auto 0 auto 0;
-}
-
-header h3 {
-  margin: auto 0 auto 0;
+  margin-top: 60px;
 }
 
 footer {
@@ -95,6 +82,16 @@ footer {
   text-align: center;
   color: white;
   margin-top: auto;
+}
+
+@media screen and (max-width: 480px) {
+  #HomeHorizontalBox {
+    display: block;
+  }
+  #HomeHorizontalBox .ContentBox {
+    margin: 20px auto;
+    width: 80%;
+  }
 }
 
 .UnderHighLightedBox {

@@ -1,0 +1,50 @@
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #a885bf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+header h2 {
+  margin: auto 0 auto 0;
+  position: relative;
+  display: inline-block;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #ffffff), color-stop(0%, #3498db));
+  background: linear-gradient(#ffffff 100%, #3498db 0%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 570px) {
+  header h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header h2 {
+    font-size: 15px;
+  }
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header #Menu {
+  margin: auto 0;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Header.css.map */
