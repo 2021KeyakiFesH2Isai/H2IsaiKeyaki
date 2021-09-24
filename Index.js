@@ -12,19 +12,6 @@ $(function(){
 
     if($(window).width() <= 480){
         
-        $(".ContentBox").hover(
-            
-            function(){
-                $(this).stop().animate({
-                    'width':'85%',
-                },'fast');
-            },
-            function () {
-                $(this).stop().animate({
-                    'width':'80%',
-                },'fast');
-            }
-        );
     }
 
     if($(window).width() > 481){
