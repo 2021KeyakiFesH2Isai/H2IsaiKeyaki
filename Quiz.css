@@ -1,0 +1,314 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #ad9db8;
+  margin: 0;
+  margin-top: 60px;
+}
+
+footer {
+  height: 100px;
+  background-color: #674f67;
+  width: 100%;
+}
+
+#bodyContent {
+  background-image: url(IsaiImage2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  max-width: 1000px;
+  margin: auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+}
+
+#bodyContent #IntroductionContent {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #IntroductionContent p {
+  margin: 0 20px;
+}
+
+#bodyContent #IntroductionContent h1, #bodyContent #IntroductionContent h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #Quiz {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #Quiz p {
+  margin: 0 20px;
+}
+
+#bodyContent #Quiz h1, #bodyContent #Quiz h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #Quiz .QuizImage {
+  width: 80%;
+  margin: auto;
+}
+
+#bodyContent #Correct {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #Correct p {
+  margin: 0 20px;
+}
+
+#bodyContent #Correct h1, #bodyContent #Correct h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #Incorrect {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #Incorrect p {
+  margin: 0 20px;
+}
+
+#bodyContent #Incorrect h1, #bodyContent #Incorrect h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #FourQuiz {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #FourQuiz p {
+  margin: 0 20px;
+}
+
+#bodyContent #FourQuiz h1, #bodyContent #FourQuiz h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #FourQuiz #selectQuiz {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+#bodyContent #FourQuiz #selectQuiz button {
+  width: calc(25% - 10px);
+  height: 60px;
+  background-color: #6263f1;
+  color: white;
+  font-size: 20px;
+}
+
+#bodyContent #FourQuiz .QuizImage {
+  width: 80%;
+  margin: auto;
+}
+
+#bodyContent #ExperimentQuiz {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #ExperimentQuiz p {
+  margin: 0 20px;
+}
+
+#bodyContent #ExperimentQuiz h1, #bodyContent #ExperimentQuiz h3 {
+  margin: 0;
+  text-align: center;
+}
+
+#bodyContent #ExperimentQuiz .QuizImage {
+  width: 80%;
+  margin: auto;
+}
+
+#bodyContent #ExperimentQuiz a {
+  text-decoration: none;
+  color: #6263f1;
+}
+
+#bodyContent #Success {
+  background-color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  opacity: 90%;
+  margin: auto;
+  color: #6263f1;
+  min-height: calc(100vh - 180px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#bodyContent #Success p {
+  margin: 0 20px;
+}
+
+#bodyContent #Success h1, #bodyContent #Success h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.TransitionButton {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  color: #6263f1;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.TransitionButton p {
+  border: #6263f1 solid 3px;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+
+.TransitionButton :active {
+  color: #a885bf;
+  border-color: #a885bf;
+}
+
+.InputZone {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+}
+
+.InputZone p {
+  color: #da6f79;
+}
+
+.InputZone input {
+  background-color: transparent;
+  border: #6263f1 solid 3px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 2px;
+}
+
+.InputZone button {
+  background-color: #6263f1;
+  border: #6263f1 solid 3px;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 2px;
+  color: white;
+}
+/*# sourceMappingURL=Quiz.css.map */

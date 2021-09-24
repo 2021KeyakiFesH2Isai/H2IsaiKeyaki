@@ -11,42 +11,82 @@
 
 </head>
 <body>
-<header>
-    <h2>高2医サイクラス表現</h2>
-    <h3 style="margin-left: auto;">|Twitter</h3>
-    <h3>|堂前のTwitter</h3>
+
+<header id="Header">
+    <!--ここに埋め込み-->
 </header>
+
 <!--内容-->
 <div id="bodyContent">
     <!--写真のところ-->
     <div id=pictureContent>
-        <img src="isai.jpg" class="picture">
+        <img src="IsaiImage1.jpg" class="picture">
         <div id="pictureContentText">
             <h1>高2医サイクラス表現</h1>
             <p>
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaa 
+                @6階ラボ2
             </p>
         </div>
     </div>
     <!--コンテンツの説明-->
     <div id="HomeDescription">
         <div class="UnderHighLightedBox">
-            <p>あああああああああああああああああ</p>
+            <p>高校二年医サイは、実験や謎解きを行います!<br>下のメニューを押すと専用ページに飛びます。</p>
         </div>
     </div>
     <!--横並びのコンテンツ-->
     <div id="HomeHorizontalBox">
         <div class="ContentBox" style="background-color: #f26463;">
-            <div>
-                aaaaa
+            <div id="TimeTable">
+                <button onclick="switchTimeTable(1)" id="SwitchButton1">一日目</button>
+                <button onclick="switchTimeTable(2)" id="SwitchButton2">二日目</button>
+                <table id="FirstDayTable">
+                    <caption>一日目</caption>
+                    <tr>
+                        <td>9:30<br>~10:00</td>
+                        <td>燃料電池</td>
+                    </tr>
+                    <tr>
+                        <td>10:15<br>~11:00</td>
+                        <td>電気泳動</td>
+                    </tr>
+                    <tr>
+                        <td>12:30<br>~13:15</td>
+                        <td>電気泳動</td>
+                    </tr>
+                    <tr>
+                        <td>13:30<br>~14:00</td>
+                        <td>光触媒</td>
+                    </tr>
+                </table>
+                <table id="SecondDayTable">
+                    <caption>二日目</caption>
+                    <tr>
+                        <td>9:30<br>~10:00</td>
+                        <td>光触媒</td>
+                    </tr>
+                    <tr>
+                        <td>10:15<br>~11:00</td>
+                        <td>電気泳動</td>
+                    </tr>
+                    <tr>
+                        <td>12:30<br>~13:15</td>
+                        <td>電気泳動</td>
+                    </tr>
+                    <tr>
+                        <td>13:30<br>~14:00</td>
+                        <td>燃料電池</td>
+                    </tr>
+                </table>
             </div>
                 <p>Experiment</p>
         </div>
-        <div class="ContentBox" style="background-color: #eee2ee;">
-            <a href="Video.html">みにいくううう</a>
+        <div class="ContentBox" style="background-color: #ab63ac;" onclick="location.href='Video.html'">
+            <!--<a href="Video.html">みにいくううう</a>-->
             <p>Movie</p>
         </div>
-        <div class="ContentBox" style="background-color: #6364f2;">
+        <div class="ContentBox" style="background-color: #6364f2;"  onclick="location.href='Quiz.html'">
+            <!--<a href="Quiz.html">みにいくううう</a>-->
                 <p>Quiz</p>
         </div>
     </div>

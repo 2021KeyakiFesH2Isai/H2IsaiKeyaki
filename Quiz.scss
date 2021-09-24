@@ -1,0 +1,258 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#ad9db8;
+    margin: 0;
+    margin-top: 60px;
+}
+footer{
+    height: 100px;
+    background-color: #674f67;
+    width: 100%;
+}
+#bodyContent{
+    background-image: url(IsaiImage2.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    max-width: 1000px;
+    margin: auto;
+    height: fit-content;
+    padding: 10px;
+
+    #IntroductionContent{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    #Quiz{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+
+        .QuizImage{
+            width: 80%;
+            margin: auto;
+        }
+
+    }
+
+    #Correct{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    #Incorrect{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+    }
+
+    #FourQuiz{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+
+        #selectQuiz{
+            margin: auto;
+            width: 80%;
+            text-align: center;
+
+            button{
+                width: calc(25% - 10px);
+                height: 60px;
+                background-color: #6263f1;
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        .QuizImage{
+            width: 80%;
+            margin: auto;
+        }
+    }
+
+    #ExperimentQuiz{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+
+        .QuizImage{
+            width: 80%;
+            margin: auto;
+        }
+
+        a{
+            text-decoration: none;
+            color: #6263f1;
+        }
+    }
+
+    #Success{
+        background-color: white;
+        height: fit-content;
+        opacity: 90%;
+        margin: auto ;
+        color: #6263f1;
+        min-height:  calc(100vh - 180px);
+        display: flex;
+        flex-direction: column;
+
+        p{
+            margin: 0 20px;
+        }
+
+        h1, h3{
+            margin: 0;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+.TransitionButton{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    color: #6263f1;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+
+
+    p{
+        border: #6263f1 solid 3px;
+        border-radius: 2px;
+        padding: 0 10px;
+    }
+    :active{
+        color: #a885bf;
+        border-color: #a885bf;
+    }
+}
+
+.InputZone{
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    
+    p{
+        color: #da6f79;
+    }
+
+    input{
+        background-color: transparent;
+        border: #6263f1 solid 3px;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border-radius: 2px;
+    }
+
+    button{
+        background-color: #6263f1;
+        border: #6263f1 solid 3px;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+        border-radius: 2px;
+        color: white;
+    }
+}

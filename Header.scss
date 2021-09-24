@@ -1,0 +1,44 @@
+header{
+    height: 50px;
+    width: 100%;
+    background-color: #a885bf;
+    display: flex;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 1;
+
+    h2{
+        margin: auto 0 auto 0;
+        @media screen and (max-width: 570px){
+            font-size: 20px;
+        }
+        @media screen and (max-width: 480px){
+            font-size: 15px;
+        }
+
+        
+            position: relative;
+            display: inline-block;
+            background: linear-gradient(#ffffff 100%, #3498db 0%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            white-space: nowrap;
+    }
+
+
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+
+    #Menu{
+        margin: auto 0;
+        margin-right: 10px;
+    }
+}

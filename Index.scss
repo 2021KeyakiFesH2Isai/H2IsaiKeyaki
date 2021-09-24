@@ -1,21 +1,12 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
     background-color:#ad9db8;
     margin: 0;
+    margin-top: 60px;
 }
-header{
-    height: 50px;
-    background-color: #a885bf;
-    display: flex;
-    color: white;
-    padding: 5px;
-    
-    h2{
-        margin: auto 0 auto 0;
-    }
-    h3{
-        margin: auto 0 auto 0;
-    }
-}
+
 footer{
     height: 100px;
     background-color: #674f67;
@@ -44,8 +35,14 @@ footer{
 
 
         h1{
-            font-size: 40px;
             color: white;
+
+            @media screen and (max-width: 480px){
+                font-size: 20px;
+            }
+            @media screen and (min-width: 481px){
+                font-size: 36px;
+            }
         }
         p{
             color: white;
@@ -56,6 +53,7 @@ footer{
 #bodyContent{
     background-color: white;
     max-width: 1000px;
+    min-width: 300px;
     margin: auto;
 }
 #HomeDescription{
@@ -66,14 +64,34 @@ footer{
 }
 #HomeHorizontalBox{
     width: 100%;
-    display: flex;
     padding: 10px 0 20px 0;
-    justify-content: space-around;        
+    justify-content: space-around;
+
+    @media screen and (max-width: 480px){
+        display: block;
+    }
+    @media screen and (min-width: 481px){
+        display: flex;
+    }
+
 
     .ContentBox{
-        width: 27%;
         flex-direction: column;
         display: flex;
+
+        @media screen and (max-width: 480px){
+            width: 80%;
+            margin: 10px auto;
+            min-height: 100px;
+            
+        }
+        @media screen and (min-width: 481px){
+            width: 27%;
+        }
+        
+
+
+
 
             p{
                 overflow-wrap: break-word;
@@ -81,10 +99,40 @@ footer{
                 text-align: center;
                 color: white;
                 margin-top: auto;
+                //display: block;
             }
-        
+
+            #TimeTable{
+                //margin: auto;
+                //width: 100%;
+                color: white;
+                text-align: center;
+                #FirstDayTable{
+                    width: 100%;
+                }
+                #SecondDayTable{
+                    width: 100%;
+                }
+                h3{
+                    margin: 0;
+                }
+                #SwitchButton1{
+                    border: none;
+                    border-radius: 5px;
+                    background-color: #f26463;
+                    color: white;
+                }
+                #SwitchButton2{
+                    border: none;
+                    border-radius: 5px;
+                    background-color: white;
+                    color: #f26463;
+
+                }
+            }
     }
 }
+
 
 
 
@@ -100,3 +148,5 @@ footer{
         text-align: center;
     }
 }
+
+

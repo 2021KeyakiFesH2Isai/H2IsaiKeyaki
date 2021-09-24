@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2Class</title>
+
+    <link rel="stylesheet" type="text/css" href="Quiz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<header id="Header">
+    <!--ここに埋め込み-->
+</header>
+
+<!--内容外-->
+<div id="bodyContent">
+    <!--最初の画面-->
+    <div id="IntroductionContent">
+        <h1>
+            謎解きへようこそ!
+        </h1>
+        <p>高2医サイは科学を題材にした謎解きイベントを実施いたします。</p>
+        <p>どれも一捻りも二捻りもある難問ばかりです。</p>
+        <p>奮ってご参加ください!</p>
+        <button class="TransitionButton" onclick="transitButton()"><p>挑戦!</p></button>
+    </div>
+
+    <!--問題の画面-->
+    <div id="Quiz">
+        <h3 class="Topic">まずは肩慣らしからいきましょう</h3>
+        <h1>
+            問題タイトル
+        </h1>
+        <img src="" class="QuizImage">
+        <h3 class="Hint1" onclick="ShowHint(1);">ヒント1</h3>
+        <h3 class="Hint2" onclick="ShowHint(2);">ヒント2</h3>
+        <div class="InputZone">
+            <p>答えを入力</p>
+            <input type="text" class="AnswerTextArea">
+            <button class="AnswerButton" onclick="checkAnswer()">→</button>
+        </div>
+    </div>
+
+    <!--正解-->
+    <div id="Correct">
+        <h1>
+            正解!
+        </h1>
+        <p class="DescroptionText">解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説解説</p>
+        <button class="TransitionButton" onclick="transitButton()"><p>次の問題へ</p></button>
+    </div>
+
+    <!--in正解-->
+    <div id="Incorrect">
+        <h1>
+            不正解...
+        </h1>
+        <button class="TransitionButton" onclick="transitButton()"><p>やり直す</p></button>
+    </div>
+
+    <!--難易度別-->
+    <div id="FourQuiz">
+        <h3 class="Topic">下から好きな問題を選んで解いてください</h3>
+        <div id="selectQuiz">
+            <button id="A" onclick="SwitchABCD(0)">A</button>
+            <button id="B" onclick="SwitchABCD(1)">B</button>
+            <button id="C" onclick="SwitchABCD(2)">C</button>
+            <button id="D" onclick="SwitchABCD(3)">D</button>
+        </div>
+
+        <h1>問題タイトル</h1>
+        <img src="Isai.jpg" class="QuizImage">
+        <h3 class="Hint1" onclick="ShowHint(1);">ヒント1</h3>
+        <h3 class="Hint2" onclick="ShowHint(2);">ヒント2</h3>
+        <div class="InputZone">
+            <p>答えを入力</p>
+            <input type="text" class="AnswerTextArea">
+            <button class="AnswerButton" onclick="checkAnswer()">→</button>
+        </div>
+    </div>
+
+    <div id="Success">
+        <h1>
+            謎解きクリア!!!
+        </h1>
+        <p>謎解きクリアおめでとうございます!<br>けやき祭当日は、ラボにて謎解きに関連した実験を行います。ぜひご覧になってください!!!</p>
+        <button class="TransitionButton" onclick="location.href='index.html'"><p>ホームに戻る</p></button>
+    </div>
+
+    <!--実験関連-->
+    <!--
+    <div id="ExperimentQuiz">
+        <h3>楽しい実験の謎解きです</h3>
+        <h1>
+            問題タイトル
+        </h1>
+        <img src="isai.jpg" class="QuizImage">
+        <div>
+            <a href="Video.html">→実験を見に行く</a>
+        </div>
+        
+        <div class="InputZone">
+            <p>答えを入力</p>
+            <input type="text">
+            <button>→</button>
+        </div>
+    </div>
+    --> 
+
+    <!--脱出成功-->
+
+
+
+</div>
+
+<footer>
+
+</footer>
+<script src="Index.js"></script>
+<script src="Quiz.js"></script>
+
+</body>
+</html>

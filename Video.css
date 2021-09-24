@@ -1,16 +1,27 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
   background-color: #ad9db8;
   margin: 0;
+  margin-top: 60px;
 }
 
 header {
   height: 50px;
+  width: 100%;
   background-color: #a885bf;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   color: white;
   padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1;
 }
 
 header h2 {
@@ -19,6 +30,11 @@ header h2 {
 
 header h3 {
   margin: auto 0 auto 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
 }
 
 footer {
@@ -64,6 +80,12 @@ footer {
   margin: auto;
 }
 
+@media screen and (max-width: 480px) {
+  #bodyContent {
+    width: 100%;
+  }
+}
+
 #HomeDescription .UnderHighLightedBox {
   width: 50%;
 }
@@ -85,8 +107,8 @@ footer {
 
 .VideoContents .VideoTitles {
   border-bottom: #d97478 solid 5px;
-  padding: 0 10px 0 10px;
-  margin: 10px 0;
+  padding: 20px 10px 0 10px;
+  margin: 0px 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -99,8 +121,15 @@ footer {
   padding: 10px 0;
 }
 
+@media screen and (max-width: 480px) {
+  .VideoContents .VideoBox {
+    display: block;
+  }
+}
+
 .VideoContents .VideoBox .Video {
   height: 200px;
+  display: block;
 }
 
 .VideoContents .VideoBox .VideoDescription {
