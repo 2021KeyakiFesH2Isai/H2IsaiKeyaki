@@ -151,6 +151,16 @@ footer {
   color: #f26463;
 }
 
+@media screen and (max-width: 480px) {
+  #HomeHorizontalBox {
+    display: block;
+  }
+  #HomeHorizontalBox .ContentBox {
+    margin: 20px auto;
+    width: 80%;
+  }
+}
+
 .UnderHighLightedBox {
   border-bottom: #a885bf solid 5px;
   margin: auto;

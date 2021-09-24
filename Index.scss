@@ -131,6 +131,15 @@ footer{
                 }
             }
     }
+
+    @media screen and (max-width: 480px){
+        display: block;
+        
+        .ContentBox{
+            margin: 20px auto;
+            width: 80%;
+        }
+    }
 }
 
 
