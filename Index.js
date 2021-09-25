@@ -3,10 +3,10 @@ $(function(){
     //$("#footer").load("footer.html");
 
     //Videoのサイズ
-    $("video").css("width" ,String($("#bodyContent").width() /2) + "px");
+    //$(".Video").css("width" ,String($("#bodyContent").width() /2) + "px");
 
     if($(window).width() <= 480){
-        $("video").css("width" ,String($("#bodyContent").width()- 20) + "px");
+        //$(".Video").css("width" ,String($("#bodyContent").width()- 20) + "px");
     }
 
 
